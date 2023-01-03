@@ -9,7 +9,7 @@ const axios = require("axios");
 const router = Router();
 router.use(express.json());
 
-router.use("/pokemons", PokemonsRouter);
+router.use("/pokemon", PokemonsRouter);
 router.use("/type", TypeRouter);
 
 // Configurar los routers
